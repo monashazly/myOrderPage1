@@ -1,0 +1,179 @@
+body{
+    background-color: #e8f0f3;
+}
+
+.date{
+    color: cornsilk;
+}
+.ava1{
+    color: rgb(247, 189, 31);
+}
+.t1{
+    font-size: 15px;
+    font-weight: bold;
+    color: #0d0d5f;
+    font-family: 'Lato', sans-serif;
+}
+.tx1{
+    color: darkgray;
+    font-size: 13px;
+}
+.black{
+    font-family: 'Lato', sans-serif;
+    color: darkslategray;
+    font-size: 11px;
+    font-weight: bold;
+}
+.line{
+    text-decoration: line-through;
+    color: rgb(196, 189, 189);
+    font-family: Old Standard TT;
+    font-size: 17px;
+}
+.one{
+    font-family: Old Standard TT;
+    font-size: 17px;
+    
+}
+.t3{
+    color: #0a0a58;
+    font-family: Old Standard TT;
+    font-size: 17px;
+    font-weight: bold
+    
+}
+.color1{
+    color: rgb(214, 125, 125);
+    font-family: Droid Serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+.head1{
+    font-family: 'Lato', sans-serif;
+}
+.Action{
+    font-family: 'Lato', sans-serif;
+   
+    color: white;
+    overflow: hidden;
+
+    
+    
+}
+.col-custom-1{
+    flex: 0 0 4.16666%;
+  max-width: 4.16666%;
+}
+card1{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+.pay1{
+    display: flex;
+    justify-content: space-between;
+}
+.subtotal{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #0d0d5f;
+}
+.items{
+    color: lightgrey;
+}
+.del{
+    font-weight: normal;
+    color: black;
+}
+.num{
+    font-weight: bold;
+    
+}
+.total{
+    color: #0d0d5f;
+}
+.deliv1{
+    display: flex;
+    justify-content: space-between;
+}
+.nav2{
+    display: flex;
+    justify-content: space-around;
+    
+    
+  
+}
+.bttn{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+    border: 1px solid;
+    padding:10px 25px;
+    border-radius: 2px;
+    border-style: none;
+    margin:2px
+    
+    
+    
+
+}
+.customer{
+    display: flex;
+    justify-content: space-between;
+}
+.cst1{
+    display: flex;
+}
+.arrow{
+    color:rgb(161, 159, 159)
+}
+.FR{
+    background-color: rgb(21, 57, 90);
+    border-radius: 60%;
+    border: 1px solid rgb(199, 198, 198);
+    padding: 10px;
+    
+    font-size: 27px;
+    color: white;
+}
+.order1{
+    display: flex;
+}
+.grayy{
+    color: rgb(119, 118, 118);
+    
+}
+/* @media only screen and (max-width: 992px){
+    [class*="col-"] {
+        width: 100%;
+        text-align: center;
+      }
+      .media1{
+          width: 70%;
+      }
+
+}
+@media only screen and (max-width: 700px){
+    .media1{
+        width: 100%;
+    }
+} */
+
+@media only screen  and (max-width:780px) and (min-width:434px)  {
+    .card1dis {
+        display: none !important;
+    }
+}
+@media only screen and (min-width:781px){
+    .dis2{
+        display: none !important;
+    }
+}
+.flx1{
+    display: flex;
+    justify-content: space-around;
+}
+
+
