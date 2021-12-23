@@ -161,19 +161,30 @@ card1{
     }
 } */
 
-@media only screen  and (max-width:780px) and (min-width:434px)  {
+ @media only screen  and (min-width:539px)    {
     .card1dis {
         display: none !important;
     }
-}
-@media only screen and (min-width:781px){
+ }
+@media only screen and (min-width:900px){
     .dis2{
         display: none !important;
     }
-}
+    .card1dis{
+        display: block !important;
+    }
+    
+}  
 .flx1{
     display: flex;
     justify-content: space-around;
 }
+@media only screen and (max-width:539px){
+    .dis2{
+        display: none !important;
+    }
+}
+
+
 
 
